@@ -1,12 +1,12 @@
 {
   "family": "webapp-devops-workshop",
-  "taskRoleArn": "arn:aws:iam::784551288357:role/devops-cluster-TaskRole-kaNNWIpnpBPW",
+  "taskRoleArn": "arn:aws:iam::784551288357:role/devops-cluster-TaskRole-0eCHqGPPWSQA",
   "executionRoleArn": "arn:aws:iam::784551288357:role/ECSTaskExecutionRole",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
       "name": "webapp",
-      "image": "784551288357.dkr.ecr.us-east-1.amazonaws.com/devops-workshop-app:latest",
+      "image": "<IMAGE1_NAME>",
       "cpu": 0,
       "links": [],
       "portMappings": [
